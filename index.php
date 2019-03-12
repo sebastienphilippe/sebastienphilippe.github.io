@@ -1,3 +1,5 @@
+<?php
+echo' 
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,4 +13,6 @@
 <body>
     <p>Ceci est un test de site web</p>
 </body>
-</html>
+</html>';
+
+?>
