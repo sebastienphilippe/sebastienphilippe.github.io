@@ -10,6 +10,14 @@
     <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
     <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
     <script src="main.js"></script>
+    <script>document.addEventListener('keydown', function(event) {
+        if(event.keyCode == 37) {
+            alert('Left was pressed');
+        }
+        else if(event.keyCode == 39) {
+            alert('Right was pressed');
+        }
+    });</script>
 </head>
 <body>
     <p>azeaez</p>
