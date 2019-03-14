@@ -5,21 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css"> -->
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
     <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
     <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
-    <script src="main.js"></script>
+    <!-- <script src="main.js"></script> -->
     <script>document.addEventListener('keydown', function(event) {
         if(event.keyCode == 37) {
-            alert('Left was pressed');
+           
+            document.getElementById("body").style.color = "red";
         }
         else if(event.keyCode == 39) {
-            alert('Right was pressed');
+            
+            document.getElementById("body").style.color = "blue";
         }
     });</script>
+    <style>
+        section {
+            width: 70%;
+            margin:auto;
+        }
+    .li_navbar {
+        display:inline;
+        decoration:none;
+        
+    }
+    .ul_navbar {
+        display: flex;
+        justify-content: space-around;  
+    }
+    
+    </style>
 </head>
-<body>
-    <p>azeaez</p>
+<body >
+    <header>
+        <nav>
+            <ul class="ul_navbar">
+                <li class="li_navbar">Sébastien Philippe</li>
+                <li class="li_navbar">Compétences</li>
+                <li class="li_navbar">Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Formation</h2>
+            <article>
+                <h3>Prépa Master digital </h3>
+                <h4>Hétic</h4>
+            </article>
+            <article>
+                <H3>DUT Informatique en alternance</H3>
+                <h4>Conservatoir national des arts et métiers</h4>
+            </article>
+        </section>
+        <section>
+            <h2>Experience</h2>
+            <article>
+                <h3>Alternant Croix-rouge Française</h3>
+                <ul>
+                    <li>Support informatique</li>
+                    <li>Développement Web : Site de référencement de plateformes</li>
+                </ul>
+            </article>
+            <article></article>
+        </section>
+        <section>
+            <h2>Langues</h2>
+            <article>
+                <h3>Français</h3>
+            </article>
+            <article>
+
+            </article>
+            <article>
+
+            </article>
+        </section>
+        
+        <section>
+            <h3>Projets</h3>
+            <article>
+
+            </article>
+            <article>
+
+            </article>
+        </section>
+
+    </main>
+    <footer></footer>
+    
 </body>
 </html>
